@@ -11,3 +11,18 @@
 .topnav a:hover {
     text-decoration: underline;
 }
+
+footer {
+    background-color: lightgrey;
+    color: grey;
+    overflow: hidden;
+}
+
+footer a {
+    color: grey;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
