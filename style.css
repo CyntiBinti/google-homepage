@@ -23,15 +23,46 @@ body {
     margin-right: auto;
 }
 
-.search-bar {
+.search-container {
+    position: relative;
+    display: flex;
+    min-width: 100px;
+}
+
+.search-text {
     border-radius: 25px;
     padding: 10px;
     margin: 50px;
     width: 500px;
     height: 20px;
+    border: 2px solid lightgrey;
 }
 
-.search-bar:hover {
+.search-icon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 14px;
+  }
+
+  .mic-icon {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    width: 14px;
+  }
+
+  .clear-icon {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    width: 14px;
+    cursor: pointer;
+    <!-- visibility: hidden; -->
+  }
+
+.search-text:hover, .search-text:focus {
+    outline: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
